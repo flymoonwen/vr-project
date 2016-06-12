@@ -42,7 +42,7 @@ namespace vr_client
             dict.TryGetValue(1, out va);
             if (null != va)
             {
-                Console.WriteLine("Get value from server: " + va.ToString());
+                Console.WriteLine("Get value from server: " + va.ToString()); 
             }
             else
             {
