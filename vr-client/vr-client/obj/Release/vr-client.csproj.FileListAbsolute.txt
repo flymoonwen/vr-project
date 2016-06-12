@@ -1,0 +1,1 @@
+E:\Git\Photon-vr\vr-client\vr-client\bin\Release\vr-client.exe.config

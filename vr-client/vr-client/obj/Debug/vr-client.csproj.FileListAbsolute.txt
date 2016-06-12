@@ -1,0 +1,10 @@
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\vr-client.exe.config
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\vr-client.exe
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\vr-client.pdb
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\Photon3DotNet.dll
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\websocket-sharp.dll
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\Photon3DotNet.pdb
+E:\Git\Photon-vr\vr-client\vr-client\bin\Debug\Photon3DotNet.xml
+E:\Git\Photon-vr\vr-client\vr-client\obj\Debug\vr-client.csprojResolveAssemblyReference.cache
+E:\Git\Photon-vr\vr-client\vr-client\obj\Debug\vr-client.exe
+E:\Git\Photon-vr\vr-client\vr-client\obj\Debug\vr-client.pdb

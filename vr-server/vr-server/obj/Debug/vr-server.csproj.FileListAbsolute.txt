@@ -1,0 +1,5 @@
+D:\SDKs\Photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\vr-server\bin\log4net.config
+D:\SDKs\Photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\vr-server\bin\vr-server.dll
+D:\SDKs\Photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\vr-server\bin\vr-server.pdb
+E:\Git\Photon-vr\vr-server\vr-server\obj\Debug\vr-server.dll
+E:\Git\Photon-vr\vr-server\vr-server\obj\Debug\vr-server.pdb
