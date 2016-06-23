@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace vr_server.Model
+namespace Test.Model
 {
    public class Player
     {

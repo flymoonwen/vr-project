@@ -38,6 +38,9 @@
     <Reference Include="ExitGamesLibs">
       <HintPath>D:\SDKs\Photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\lib\ExitGamesLibs.dll</HintPath>
     </Reference>
+    <Reference Include="FluentNHibernate">
+      <HintPath>D:\SDKs\jagregory-fluent-nhibernate-1dff2ab\build\FluentNHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>D:\SDKs\NHibernate-4.0.4.GA-bin\Required_Bins\Iesi.Collections.dll</HintPath>
     </Reference>
@@ -64,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="db\DBManager.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="MyPeer.cs" />
     <Compile Include="NHibernateHelper.cs" />
@@ -77,12 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\FluentNHibernate\FluentNHibernate.csproj">
-      <Project>{529145D5-6CC3-4016-89B5-826563024AF1}</Project>
-      <Name>FluentNHibernate</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,8 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FluentNHibernate.Automapping;
+using System.Reflection;
 
-namespace vr_server
+namespace Test
 {
     public class NHibernateHelper
     {
@@ -18,7 +20,8 @@ namespace vr_server
 
         private static void Init()
         {
-            _sessionFactory = Fluently.Configure().Database(MySQLConfiguration.Standard.ConnectionString(db => db.Server("localhost").Database("vm-db")
+           // var modle = AutoMap.Assembly(Assembly.Load("Test.Model")).Where(t=>t.Namespace == "Test.Model").IgnoreBase<BaseEntity>();
+            _sessionFactory = Fluently.Configure().Database(MySQLConfiguration.Standard.ConnectionString(db => db.Server("localhost").Database("vm_db")
             .Username("root")
             .Password("flymoonwen")))
             .Mappings(x => x.FluentMappings.AddFromAssemblyOf<NHibernateHelper>())
